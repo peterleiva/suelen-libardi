@@ -14,7 +14,7 @@ export default function Faq() {
     <div
       className={clsx(
         workSans.className,
-        "bg-secondary text-white px-14 py-10 pb-20",
+        "bg-secondary text-white px-14 py-10 pb-20 lg:px-40",
       )}
     >
       <div className="mb-12">
