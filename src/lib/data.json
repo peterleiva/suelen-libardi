@@ -18,5 +18,28 @@
       "value": "(11) 9 69001678",
       "link": "https://api.whatsapp.com/send?phone=11969001678"
     }
+  ],
+
+  "faq": [
+    {
+      "question": "O que é psicoterapia?",
+      "answer": "É um processo de autoconhecimento, onde o paciente é convidado a refletir sobre si mesmo, suas relações e seu mundo. A psicoterapia é um espaço de escuta e acolhimento, onde o paciente pode falar sobre suas angústias, medos, tristezas, alegrias, conquistas, etc. O psicólogo é um profissional que está preparado para ajudar o paciente a lidar com suas questões, de forma que ele possa encontrar novas formas de lidar com seus problemas e conflitos."
+    },
+    {
+      "question": "Quais os benefícios da psicoterapia?",
+      "answer": "A psicoterapia pode ajudar o paciente a lidar com suas questões, de forma que ele possa encontrar novas formas de lidar com seus problemas e conflitos. A psicoterapia pode ajudar o paciente a lidar com suas questões, de forma que ele possa encontrar novas formas de lidar com seus problemas e conflitos."
+    },
+    {
+      "question": "Quais os benefícios da psicoterapia?",
+      "answer": "A psicoterapia pode ajudar o paciente a lidar com suas questões, de forma que ele possa encontrar novas formas de lidar com seus problemas e conflitos. A psicoterapia pode ajudar o paciente a lidar com suas questões, de forma que ele possa encontrar novas formas de lidar com seus problemas e conflitos."
+    },
+    {
+      "question": "Quais os benefícios da psicoterapia?",
+      "answer": "A psicoterapia pode ajudar o paciente a lidar com suas questões, de forma que ele possa encontrar novas formas de lidar com seus problemas e conflitos. A psicoterapia pode ajudar o paciente a lidar com suas questões, de forma que ele possa encontrar novas formas de lidar com seus problemas e conflitos."
+    },
+    {
+      "question": "Quais os benefícios da psicoterapia?",
+      "answer": "A psicoterapia pode ajudar o paciente a lidar com suas questões, de forma que ele possa encontrar novas formas de lidar com seus problemas e conflitos. A psicoterapia pode ajudar o paciente a lidar com suas questões, de forma que ele possa encontrar novas formas de lidar com seus problemas e conflitos."
+    }
   ]
 }
