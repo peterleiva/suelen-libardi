@@ -1,3 +1,9 @@
+import ContactForm from "./ContactForm";
+
 export default function Footer() {
-  return <div>Footer</div>;
+  return (
+    <div>
+      <ContactForm />
+    </div>
+  );
 }
