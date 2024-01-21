@@ -1,19 +1,14 @@
 "use client";
 
-import { workSans } from "@/lib/font";
-import {
-  Accordion,
-  AccordionDetails,
-  AccordionSummary,
-  Typography,
-} from "@mui/material";
-import clsx from "clsx";
-import { FaChevronUp } from "react-icons/fa";
 import data from "@/lib/data.json";
+import { workSans } from "@/lib/font";
+import { Accordion, AccordionDetails, AccordionSummary } from "@mui/material";
+import clsx from "clsx";
 import { useState } from "react";
+import { FaChevronUp } from "react-icons/fa";
 
 export default function Faq() {
-  const [accordion, setAccordion] = useState<boolean[]>([]);
+  const [expanded, setExpanded] = useState<number | null>(null);
 
   return (
     <div
@@ -32,13 +27,13 @@ export default function Faq() {
       {data.faq.map((item, index) => (
         <Accordion
           key={index}
+          expanded={expanded === index}
           className={clsx(
             "bg-secondary text-white shadow-none overflow-hidden",
-            !accordion.at(index) && "border-b border-white",
+            !(expanded === index) && "border-b border-white",
           )}
-          onChange={(_, expanded) => {
-            accordion[index] = expanded;
-            setAccordion([...accordion]);
+          onChange={() => {
+            setExpanded(index);
           }}
         >
           <AccordionSummary
@@ -49,6 +44,7 @@ export default function Faq() {
             {item.question}
           </AccordionSummary>
           <AccordionDetails className="border-white border-t">
+            {" "}
             {item.answer}
           </AccordionDetails>
         </Accordion>
