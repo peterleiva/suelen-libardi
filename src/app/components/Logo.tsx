@@ -1,10 +1,15 @@
-export default function Logo() {
+export type LogoProps = {
+  width: number;
+  height: number;
+};
+
+export default function Logo({ width = 216, height = 98 }: Partial<LogoProps>) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
       xmlnsXlink="http://www.w3.org/1999/xlink"
-      width="216"
-      height="98"
+      width={width}
+      height={height}
       fill="none"
     >
       <path fill="url(#a)" d="M0 0h216v98H0z" />

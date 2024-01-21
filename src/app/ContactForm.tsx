@@ -1,6 +1,11 @@
-export default function ContactForm() {
+import clsx from "clsx";
+
+export type ContactFormProps = {
+  className?: string;
+};
+export default function ContactForm({ className }: ContactFormProps) {
   return (
-    <div className="flex flex-col gap-4 items-stretch p-6">
+    <div className={clsx(className, "flex flex-col gap-4 items-streetch")}>
       <div className="text-secondary">
         <h1 className="font-bold text-3xl ">Entre em contato</h1>
         <h2>Pelas redes sociais ou formulário abaixo</h2>
@@ -46,7 +51,6 @@ export default function ContactForm() {
 
         <button
           type="submit"
-          disabled={true}
           className="text-white font-bold bg-secondary py-2 rounded-2xl disabled:opacity-50 disabled:cursor-not-allowed"
         >
           Enviar mensagem

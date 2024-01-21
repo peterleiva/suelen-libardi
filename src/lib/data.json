@@ -1,0 +1,22 @@
+{
+  "name": "Suelen Libardi",
+  "crp": "06/19009",
+
+  "contacts": [
+    {
+      "type": "email",
+      "value": "psi.libardi@gmail.com",
+      "link": "mailto:psi.libardi@gmail.com"
+    },
+    {
+      "type": "instagram",
+      "value": "@Psi.SuelenLibardi",
+      "link": "https://instagram.com/psi.suelenlibardi"
+    },
+    {
+      "type": "WhatsApp",
+      "value": "(11) 9 69001678",
+      "link": "https://api.whatsapp.com/send?phone=11969001678"
+    }
+  ]
+}
